@@ -1,0 +1,59 @@
+/* .container {
+    display: flex;
+} */
+.nav-link:hover,
+#git:hover {
+    transition: 1.5s;
+    transform: translateY(-15px);
+}
+
+h1 {
+    text-shadow: 1px 1px 1px #000000;
+    opacity: .7;
+}
+
+#home,
+#bio,
+#experience,
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    font-family: monospace;
+    margin-top: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#navigation {
+    background-color: #161515de;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: black;
+    opacity: .9;
+    box-shadow: 5px 5px;
+}
+
+.narbar-brand {
+    font-weight: lighter;
+    font-family: monospace;
+    font-size: larger;
+    text-shadow: 2px 2px 4px #000000;
+    opacity: 1;
+}
+#flex-container {
+    display: flex; flex-direction: column; justify-content: space-between; padding: 20px;
+}
